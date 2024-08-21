@@ -17,11 +17,8 @@ body{
 
 .roww-1{
     display: flex;
-    align-items: center;
-    
+    align-items: center; 
     z-index: 100;
-   
-
 }
 .rotate-image{
     width: 136px;
@@ -162,17 +159,16 @@ address span:hover{
   
 }
 @media (max-width:481px){
-    .col-lg-6{
-        height: 100vh;
-    }
-    .paragraph p{
-        scale: .8;
-        
-    }
+    
+   
+   
     .footernav{
        position: absolute;
-      bottom: 100px;
+      
       left: 28px;
+    }
+    .roww-1{
+        height: 100vh;
     }
 }
 .rotate-image{
