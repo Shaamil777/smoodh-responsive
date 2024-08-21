@@ -115,6 +115,9 @@ address span:hover{
         height: 230px;
         right: 11%;
     }
+    .paragraph p{
+        scale: 0.8;
+    }
 
 }
 
